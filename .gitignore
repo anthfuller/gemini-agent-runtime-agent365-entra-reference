@@ -1,0 +1,45 @@
+# Environment and secrets
+.env
+.env.*
+!config/.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*.json
+service-account*.json
+token*.json
+
+# Private evidence and exports
+*.zip
+private-evidence/
+raw-build-logs/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local runtime output
+*.log
+tmp/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
