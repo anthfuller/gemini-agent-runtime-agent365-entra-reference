@@ -1,0 +1,11 @@
+# Google Agent Runtime and ADK
+google-cloud-aiplatform[agent_engines,adk]>=1.112
+google-adk[agent-identity]
+cloudpickle>=3.0
+pydantic>=2.6.4
+requests>=2.32
+
+# Protected API
+fastapi
+uvicorn[standard]
+PyJWT[crypto]

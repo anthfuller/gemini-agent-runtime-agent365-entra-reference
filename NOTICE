@@ -1,0 +1,12 @@
+Gemini Agent Runtime to Agent 365 and Entra Agent ID Reference
+Copyright 2026 Anthony Fuller
+
+This product is licensed under the Apache License, Version 2.0.
+
+Microsoft, Microsoft Entra, and Microsoft Agent 365 are trademarks of the
+Microsoft group of companies. Google, Google Cloud, Gemini, and Vertex AI are
+trademarks of Google LLC. Their names are used only to describe compatibility
+and the validated reference architecture. No trademark rights are granted.
+
+Microsoft Agent365-python is an external reference. Its source is not included
+in this product.
