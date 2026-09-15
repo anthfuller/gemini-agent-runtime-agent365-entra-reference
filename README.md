@@ -7,7 +7,7 @@ This repository provides a deployable, customer-safe reference pattern for feder
 > [!IMPORTANT]
 > This is a validated reference pattern from one controlled environment. It is not a universal support statement for every third-party agent, tenant, protected resource, SDK version, or Conditional Access design.
 
-## Customer value
+## Why this reference matters
 
 The reference demonstrates how a cloud-hosted agent can use its workload identity instead of a stored client secret, become a governed child Agent Identity in Entra, receive least-privilege application authorization, and be evaluated by Conditional Access before reaching a protected API.
 
