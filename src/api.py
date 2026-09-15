@@ -73,5 +73,5 @@ def get_investigation(
         "severity": "Medium",
         "status": "Open",
         "subject": "synthetic-user-001",
-        "summary": "Customer-neutral synthetic investigation record.",
+        "summary": "Synthetic investigation record for controlled validation.",
     }

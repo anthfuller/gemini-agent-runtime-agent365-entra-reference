@@ -1,4 +1,4 @@
-# Customer Deployment Guide
+# Deployment Guide
 
 This guide reproduces the validated reference pattern with sanitized values.
 It is not a support statement for every third-party agent, tenant, resource, or
@@ -85,7 +85,7 @@ the reference API.
 5. Populate `PROTECTED_API_APP_ID`, `PROTECTED_API_AUDIENCE`, and
    `PROTECTED_API_SCOPE` in the local deployment environment.
 
-Do not use Microsoft Graph as the resource for this customer pattern. The
+Do not use Microsoft Graph as the resource for this reference pattern. The
 validated final resource is the custom protected API.
 
 ## 3. Create the Entra Agent ID objects
@@ -305,4 +305,4 @@ If the runtime identity changed, stop and revalidate the FIC before continuing.
 
 Deployment is complete only when all five rows in
 [`validation-matrix.md`](validation-matrix.md) pass and no raw token or
-environment-specific identifier is present in customer-facing evidence.
+environment-specific identifier is present in published evidence.

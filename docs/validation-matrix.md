@@ -144,7 +144,7 @@ Never record:
 - T1 tokens.
 - Protected API access tokens.
 - Authorization headers.
-- Tenant, application, object, project, or runtime resource IDs in customer-facing evidence.
+- Tenant, application, object, project, or runtime resource IDs in published evidence.
 
 ## Pass criteria
 

@@ -9,7 +9,7 @@ Confirm that the targeted deny child is blocked during the T2 resource-token exc
 - The 401, roleless 403, and approved 200 scenarios have passed.
 - The intended policy matched the deny child in report-only mode.
 - The approved child is outside the deny-policy scope.
-- The block policy was enabled through the customer's approved change process.
+- The block policy was enabled through the target environment's approved change process.
 
 ## Deny request
 

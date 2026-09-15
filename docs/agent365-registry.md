@@ -37,9 +37,9 @@ Microsoft [`Agent365-python`](https://github.com/microsoft/Agent365-python) is a
 
 SDK-based registration, tooling, and observability must be designed and validated independently against the current upstream repository and Microsoft documentation.
 
-## Customer decision
+## Implementation decision
 
-Customers may implement Registry discovery as a separate workstream after the identity path is understood. Use distinct acceptance criteria and evidence for:
+Implementers may configure Registry discovery as a separate workstream after the identity path is understood. Use distinct acceptance criteria and evidence for:
 
 1. Agent discovery and inventory.
 2. Entra Agent ID authentication and governance.
