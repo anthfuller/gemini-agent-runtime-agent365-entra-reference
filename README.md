@@ -2,10 +2,10 @@
 
 [![Repository quality](https://github.com/anthfuller/gemini-agent-runtime-agent365-entra-reference/actions/workflows/repository-quality.yml/badge.svg)](https://github.com/anthfuller/gemini-agent-runtime-agent365-entra-reference/actions/workflows/repository-quality.yml)
 
-This repository provides a deployable, customer-safe reference pattern for federating a Google Gemini Enterprise Agent Platform Agent Runtime identity with Microsoft Entra Agent ID, applying distinct child Agent Identity authorization and Conditional Access decisions, and calling a protected security-style API.
+This repository provides a validated reference implementation for federating a Google Gemini Enterprise Agent Platform Agent Runtime identity with Microsoft Entra Agent ID, applying distinct child Agent Identity authorization and Conditional Access decisions, and calling a protected security-style API.
 
 > [!IMPORTANT]
-> This is a validated reference pattern from one controlled environment. It is not a universal support statement for every third-party agent, tenant, protected resource, SDK version, or Conditional Access design.
+> This is a validated reference pattern from one controlled environment. It is intended for reference, evaluation, and controlled nonproduction validation. It is not presented as production-ready guidance or as a universal support statement for every third-party agent, tenant, protected resource, SDK version, or Conditional Access design.
 
 ## Why this reference matters
 
