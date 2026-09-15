@@ -12,6 +12,6 @@ If private reporting is unavailable, open a public issue containing only a reque
 
 ## Deployment responsibility
 
-This repository is a validated reference pattern, not a managed service or universal product-support statement. Customers are responsible for reviewing identity, application-role, API, cloud IAM, logging, and Conditional Access changes under their own security and change-management processes.
+This repository is a validated reference pattern, not a managed service or universal product-support statement. Implementers are responsible for reviewing identity, application-role, API, cloud IAM, logging, and Conditional Access changes under their own security and change-management processes.
 
 Use synthetic data and nonproduction environments first. Rotate any credential or token that may have been exposed.

@@ -91,7 +91,7 @@ T1 succeeds -> T2 blocked -> API not reached
 
 If T1 fails, troubleshoot the federated identity credential before Conditional Access. If T2 succeeds and the API returns HTTP 403, troubleshoot the application role rather than labeling the result a Conditional Access denial.
 
-Confirm policy behavior using Entra evidence from the same UTC test window. Sanitize all tenant and identity identifiers before preserving customer-facing evidence.
+Confirm policy behavior using Entra evidence from the same UTC test window. Sanitize all tenant and identity identifiers before preserving shared evidence.
 
 ## Protected API HTTP 401
 

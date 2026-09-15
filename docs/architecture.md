@@ -28,7 +28,7 @@ The README provides the compact architecture flow. The remainder of this documen
 | Entra Agent Identity blueprint | Establishes the federated trust and receives the Google assertion | Microsoft Entra tenant |
 | Child Agent Identity | Represents the selected autonomous agent identity and receives resource permissions | Microsoft Entra tenant |
 | Conditional Access | Evaluates policy at the child identity resource-token exchange | Microsoft Entra policy plane |
-| Protected API | Validates the Entra token and enforces the application role | Customer application boundary |
+| Protected API | Validates the Entra token and enforces the application role | Protected application boundary |
 | Agent 365 Connected Platform / Registry | Provides a separate registration, management, and discovery plane | Microsoft 365 / Agent 365 |
 
 ## Identity selection
@@ -66,7 +66,7 @@ The validated denial scenario targets the denied child Agent Identity:
 
 The approved child identity remains outside the targeted policy scope in the validated reference environment and continues to receive a resource token and call the API.
 
-This outcome is specific to the validated policy configuration. Exact customer policy behavior must be verified in the target tenant before deployment guidance is finalized.
+This outcome is specific to the validated policy configuration. Exact target-environment policy behavior must be verified in the target tenant before deployment guidance is finalized.
 
 ## Protected API contract
 
@@ -100,7 +100,7 @@ The synthetic response contains no customer investigation data.
 
 The implementation uses raw assertions and access tokens only inside the token-exchange and API-call functions. Normal tool results expose selected claims and status metadata, not raw tokens.
 
-Customer deployments must not add token logging, exception payload dumping, HTTP debug logging that records authorization headers, or persistence of assertions and access tokens.
+Deployments must not add token logging, exception payload dumping, HTTP debug logging that records authorization headers, or persistence of assertions and access tokens.
 
 ## Configuration boundary
 

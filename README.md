@@ -52,7 +52,7 @@ These outcomes describe the validated reference environment only. Follow the [va
 
 1. Review [Prerequisites](docs/deployment-guide.md#prerequisites).
 2. Understand [Identity and federation](docs/identity-and-federation.md).
-3. Follow the [Customer deployment guide](docs/deployment-guide.md).
+3. Follow the [Deployment guide](docs/deployment-guide.md).
 4. Configure [Conditional Access](docs/conditional-access.md) only after the 401, 403, and 200 controls pass.
 5. Execute the [Validation matrix](docs/validation-matrix.md).
 6. Use the [Client demo runbook](docs/demo-runbook.md).
@@ -76,7 +76,7 @@ Do not infer current SDK or Microsoft Graph request shapes from this repository.
 | `src/` | Sanitized agent, invocation client, and protected API |
 | `deployment/` | Agent deployment/update scripts, dependencies, and API process definition |
 | `config/.env.example` | Placeholder-only configuration template |
-| `docs/` | Customer architecture, deployment, governance, validation, and operational guidance |
+| `docs/` | Reference architecture, deployment, governance, validation, and operational guidance |
 | `validation/` | Scenario-specific expected results |
 | `scripts/` | Credential-free repository validation |
 | `infra/` | Boundary for future infrastructure as code |

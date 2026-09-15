@@ -97,7 +97,7 @@ The supplied evidence does not validate:
 - production resilience, scale, disaster recovery, or compliance posture;
 - a migration from `vertexai.Client` to `agentplatform.Client`;
 - arbitrary Microsoft Graph operations as part of the final protected-API
-  customer pattern.
+  reference pattern.
 
 Any extension in this list needs its own architecture review and evidence.
 

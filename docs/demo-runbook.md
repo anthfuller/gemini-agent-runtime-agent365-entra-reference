@@ -91,7 +91,7 @@ Explain that the child identity received the application role and the API enforc
 
 ### 5. Conditional Access deny — V-04
 
-Confirm the prevalidated Conditional Access policy is enforcing the deny child identity. Do not redesign or edit the policy during the customer demonstration.
+Confirm the prevalidated Conditional Access policy is enforcing the deny child identity. Do not redesign or edit the policy during the live demonstration.
 
 Run:
 
